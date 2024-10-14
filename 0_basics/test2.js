@@ -38,16 +38,17 @@
 // const myHeading = document.querySelector("h1");
 // myHeading.textContent = "Hello world!";
 
-const strValue = "Hello";
-console.log(strValue.at(1)); // Outputs: e
-console.log(strValue.at(-1)); // Outputs: o
-
 // const strValue = "Hello";
-// console.log(strValue.charAt(1)); // Outputs: e
+// console.log(strValue.at(1)); // Outputs: e
+// console.log(strValue.at(-1)); // Outputs: o
 
-function isCompanyEmail(email) {
-    return email.endsWith("@company.com");
-  }
-  console.log(isCompanyEmail("employee@company.com")); // Outputs: true
-  console.log(isCompanyEmail("user@gmail.com"));       // Outputs: false
+// // const strValue = "Hello";
+// // console.log(strValue.charAt(1)); // Outputs: e
+
+// function isCompanyEmail(email) {
+//     return email.endsWith("@company.com");
+//   }
+//   console.log(isCompanyEmail("employee@company.com")); // Outputs: true
+//   console.log(isCompanyEmail("user@gmail.com"));       // Outputs: false
   
+console.log((Math.random()*10) + 1);

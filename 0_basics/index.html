@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <title>Text Content vs Inner Text</title>
+</head>
+<body>
+    <h3>Source element:</h3>
+    <div id="source">
+        <span id="text">Take a look at how this text is interpreted below.</span>
+        <span style="display:none">HIDDEN TEXT</span>
+    </div>
+
+    <h3>Result of .textContent:</h3>
+    <textarea id="textContentOutput" rows="6" cols="100" readonly></textarea>
+    
+    <h3>Result of .innerText:</h3>
+    <textarea id="innerTextOutput" rows="6" cols="100" readonly></textarea>
+
+    <h3>Editable Content:</h3>
+    <p id="editableContent" contenteditable="true" >After edit updated content will be appear here.</p>
+    
+    <button id="refreshButton">Click on me & Update the above content if needed</button>
+
+
+    
+</body>
+<script src="main.js" defer></script>
+</html>

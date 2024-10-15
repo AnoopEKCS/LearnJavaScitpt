@@ -57,4 +57,4 @@
 let myDate = new Date('20/10/2024')
 console.log(Date.now());//return in current date
 console.log(Date.now()/1000);//return value in decimal 
-console.log(Math.floor(Date.now()/1000));//so here use mathfloor /1000 return in miliseconds
+console.log(Math.floor(Date.now()/1000));//so here use mathfloor /1000 return in milisecondsgjgjh

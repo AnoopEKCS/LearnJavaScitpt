@@ -54,7 +54,19 @@
 //   const min = 10;
 // console.log((Math.random()*10) + 1);
 // console.log(Math.floor(Math.random() * (max - min + 1)) + min);
-let myDate = new Date('20/10/2024')
-console.log(Date.now());//return in current date
-console.log(Date.now()/1000);//return value in decimal 
-console.log(Math.floor(Date.now()/1000));//so here use mathfloor /1000 return in milisecondsgjgjh
+// let myDate = new Date('20/10/2024')
+// console.log(Date.now());//return in current date
+// console.log(Date.now()/1000);//return value in decimal 
+// console.log(Math.floor(Date.now()/1000));//so here use mathfloor /1000 return in milisecondsgjgjh
+
+const fruits = ["Apple", "Banana", "Pomegranate"]
+const desiVibes = ["Bear", "takila", "whisky"]
+const chakhna = ["moongfali", "salad", "chilliPotato"]
+// console.log(fruits.length);
+// console.log(fruits[1]);
+console.log(...fruits, ...desiVibes, ...chakhna);
+
+const myArray = new Array(2)
+//const myArray = new Array(2, 3)
+console.log(myArray[0]); 
+console.log(0 in myArray); 

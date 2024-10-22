@@ -64,9 +64,55 @@ const desiVibes = ["Bear", "takila", "whisky"]
 const chakhna = ["moongfali", "salad", "chilliPotato"]
 // console.log(fruits.length);
 // console.log(fruits[1]);
-console.log(...fruits, ...desiVibes, ...chakhna);
+// console.log(...fruits, ...desiVibes, ...chakhna);
 
 const myArray = new Array(2)
 //const myArray = new Array(2, 3)
-console.log(myArray[0]); 
-console.log(0 in myArray); 
+// console.log(myArray[0]); 
+// console.log(0 in myArray); 
+
+const elements = ['Fire', 'Air', 'Water'];
+
+// console.log(elements.join(', '));
+// console.log(elements.join(' '));
+// console.log(elements.join('-'));
+
+
+const matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9],
+  ];
+
+//   console.log(typeof (...matrix));
+
+
+const users = [
+    { name: 'Alice', age: 25 },
+    { name: 'Bob', age: 30 },
+    { name: 'Charlie', age: 35 }
+  ];
+  
+  const names = users.map(user => user.name + '- age: ' + user.age);
+//   console.log(names); // ['Alice', 'Bob', 'Charlie']
+
+const arr2 = [0, 1, [2, [3, [4, 5]]]];
+// console.log(arr2.flat(Infinity));
+
+// console.log(...arr2)
+  
+
+const products = [
+    { name: 'Laptop', price: 1000 },
+    { name: 'Phone', price: 500 },
+    { name: 'Tablet', price: 300 }
+  ];
+  
+  const discountedPrices = products.map(product => ({
+    name: product.name,
+    price: product.price * 0.8 // Applying a 10% discount
+
+  }));
+  
+  console.log(discountedPrices);
+  

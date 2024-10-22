@@ -110,7 +110,7 @@ const products = [
   
   const discountedPrices = products.map(product => ({
     name: product.name,
-    price: product.price * 0.8 // Applying a 10% discount
+    price: product.price * 0.9 // Applying a 10% discount
 
   }));
   
